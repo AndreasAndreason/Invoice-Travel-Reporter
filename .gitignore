@@ -1,0 +1,33 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vs/
+vs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local business data
+data/invoices/*
+!data/invoices/.gitkeep
+
+data/addresses.json
+data/*Report*.xlsx
+data/*Report*.pdf
+
+# Build artifacts
+build/
+dist/
+*.spec
